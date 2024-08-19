@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 
-function Flashcard({ question, answer }) {
-  const [isFlipped, setIsFlipped] = useState(false);
+// function Flashcard({ question, answer }) {
+//   const [isFlipped, setIsFlipped] = useState(false);
 
-  return (
-    <div onClick={() => setIsFlipped(!isFlipped)}>
-      {isFlipped ? <p>{answer}</p> : <p>{question}</p>}
-    </div>
-  );
-}
+//   return (
+//     <div onClick={() => setIsFlipped(!isFlipped)}>
+//       {isFlipped ? <p>{answer}</p> : <p>{question}</p>}
+//     </div>
+//   );
+// }
 
-export default Flashcard;
+// export default Flashcard;

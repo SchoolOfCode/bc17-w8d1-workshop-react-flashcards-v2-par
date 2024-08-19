@@ -34,10 +34,12 @@
 
 // export default App
 
-import HeaderReactLogo from "../public/Images/Logo/logo";
+
 import Header from "./Component/Header/Header";
+
 export default function home () {
   return (
     <Header/>
+    
   )
 }

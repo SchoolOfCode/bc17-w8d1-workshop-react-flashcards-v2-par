@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <HeaderReactLogo />
       <h1>Flashcards</h1>
-      <p>Expand your reacts knowledge, one flashcard at a time 🐌</p>
+      <p>🧠Expand your reacts knowledge, one flashcard at a time 🐌</p>
     </>
   );
 }

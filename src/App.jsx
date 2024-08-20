@@ -1,7 +1,7 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-// import './App.css'
+import './App.css'
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -36,20 +36,17 @@
 
 
 import Header from "./Component/Header/Header";
+import FlashCards from "./Component/Flashcards/Flashcards"
 
-export default function home () {
-  return (
-    <Header/>
-    
-  )
-}
-import Footer from './Footer';
 
 function App() {
   return (
     <div>
       <Header />
-      <Footer />
+        <main>
+          <FlashCards />  
+        </main>
+      <footer></footer>
     </div>
   );
 }
